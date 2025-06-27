@@ -85,7 +85,8 @@
 
       appendMessage("SSKtheAI", "Typing...", "bot");
 
-      const res = await fetch("https://ssk-theai-backend--ssksanjeevakumar.repl.co/chat", {
+     const res = await fetch("https://ssk-theai-backend--ssksanjeevakumar.repl.co/chat", {
+
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userText }),
